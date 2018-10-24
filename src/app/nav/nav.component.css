@@ -1,4 +1,21 @@
-#logo{
-float:right;
-width: 20px;
+body {margin:0}
+
+.icon-bar {
+	border-radius:80px;
+    width: 90px;
+    background-color: #555;
+}
+
+.icon-bar a {
+    border-radius:80px;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
 }
