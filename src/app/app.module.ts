@@ -16,6 +16,8 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { AboutComponent } from './about/about.component';
+import { ProductComponent } from './product/product.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { AboutComponent } from './about/about.component';
     NavComponent,
     FooterComponent,
     BodyComponent,
-    AboutComponent
+    AboutComponent,
+    ProductComponent,
+    DetailsComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),

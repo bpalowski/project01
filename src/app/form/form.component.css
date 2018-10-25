@@ -3,3 +3,8 @@ form,input{
     border-radius: 90px;
     text-align: center;
 }
+h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color:maroon;
+}

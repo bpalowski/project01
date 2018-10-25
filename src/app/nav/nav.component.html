@@ -1,7 +1,13 @@
-<div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home">something</i></a>
-  <a href="#"><i class="fa fa-search"></i>search</a>
-  <a href="#"><i class="fa fa-envelope">mail</i></a>
-  <a href="#"><mdb-icon icon="globe"></mdb-icon></a>
-  <a href="#"><i class="fa fa-trash">something</i></a>
+<div class= test>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)"class="closebtn" (click)="closeNav()">&times;</a>
+  <a routerLink="/" href="#" (click)="closeNav()">Home</a>
+  <br>
+  <a routerLink="/phone" href="#" (click)="closeNav()">Phones</a>
+  <br>
+  <a routerLink="/about" href="#" (click)="closeNav()">About</a>
+
+</div>
+
+<p id="logo2"><a style="font-size:30px;cursor:pointer" (click)="openNav()"><img id="logo2" src="./../assets/dtoor2.png"></a></p>
 </div>
